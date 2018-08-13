@@ -1,0 +1,214 @@
+body {
+    min-height: 100vh;
+    background-color: #a8a8a8;
+}
+
+.headerText {
+    display: block;
+    background-color: #404040;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+header h1, h2 {
+    color: #ffffff;
+    font-weight: 100;
+}
+
+.headerImg {
+    background-position: center;
+    background-size: cover;
+    background-image: url(cityscape.png);
+    height: 300px;
+}
+.home-icon {
+    display: block;
+    position: relative;
+    float: left;
+    height: 40px;
+    width: 40px;
+    left: 20%;
+    top: -35px;
+    filter: invert(100%);
+}
+
+.linked-icon {
+    position: inherit;
+    height: 35px;
+    width: 40px;
+    left: 20%;
+}
+
+.r2h-icon {
+    width: 100px;
+    height: 50;
+}
+
+.dropdown {
+    position: relative;
+    display: block;
+}
+
+.dropdown-content ul {
+    position: absolute;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    left: 0px;
+}
+
+.dropdown-content a {
+    width: 100px;
+    color: #404040;
+}
+
+.dropdown-content li {
+    border-bottom: 1px solid black;
+    font-size: 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100px;
+    height: 135px;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    left: 20%;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container > a {
+    position: relative;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    background-color: #f1f1f1;
+    text-align: center;
+    font-size: 30px;
+    border: black solid 3px;
+    margin: 50px 25px;
+    min-width: 275px;
+    height: 400px;
+    transition: all .25s;
+}
+
+.blocks {
+    display: block;
+    position: relative;
+    height: 10%;
+    padding: 5px 0;
+    border-bottom: black solid 3px;
+    background-color: #888888;
+    color: #ffffff;
+    text-align: center;
+}
+
+.blockImg__one {
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-size: cover;
+    background-image: url(free-perspective-website-mockup.png);
+    width: 100%;
+    height: 358px;
+}
+
+.blockImg__two {
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-size: cover;
+    background-image: url(book.jpeg);
+    width: 100%;
+    height: 358px;
+}
+
+.blockImg__three {
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-size: cover;
+    background-image: url(office-guy-typing-keyboard-89039802.jpg);
+    width: 100%;
+    height: 358px;
+}
+.blockImg__four {
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-size: cover;
+    background-image: url(write-a-resume.jpg);
+    width: 100%;
+    height: 358px;
+}
+
+.blockImg__five {
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-size: cover;
+    background-image: url(github1.png);
+    width: 100%;
+    height: 358px;
+}
+
+.blockImg__six {
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-size: cover;
+    background-image: url(github2.png);
+    width: 100%;
+    height: 358px;
+}
+
+.flex-container > a:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    display: block;
+    background-color: #404040;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    color: #ffffff;
+    width: 100%;
+}
+
+footer > a {
+    color: white;
+}
+
+/* 
+PHONE: 0px - 768px
+TABLET: 768px - 1024px
+DESKTOP 1024px +
+*/
+
+@media screen and (min-width: 993px) and (max-width: 1322px) {
+    .flex-container > div {
+        margin: 50px 100px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .home-icon {
+        display: none;
+    }
+}

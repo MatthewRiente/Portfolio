@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://127.0.0.1:5500/html/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    <script src="./Page Title_files/main.js"></script>
+<link rel="stylesheet" type="text/css" media="screen" href="./Page Title_files/reset.css"><link rel="stylesheet" type="text/css" media="screen" href="./Page Title_files/index.css"></head>
+<body>
+    <header>
+        <div class="headContent">
+            <div class="headContent__myMove">
+                <img src="./Page Title_files/horizontal_logo.svg" alt="head_logo">
+            </div>
+            <div class="headContent__navbar">
+                <nav>
+                    <ul>
+                        <li>HOW IT WORKS</li>
+                        <li>PARTNER WITH US</li>
+                        <li>ABOUT US</li>
+                        <li>MOVING RESOURCES</li>
+                        <li>SUPPORT</li>
+                        <li class="navbar-dropdown">
+                            <img src="./Page Title_files/menu_icon.svg" alt="hamburgMenu">
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero__BG">
+                <img src="./Page Title_files/hero_img.png" alt="hero_image">
+                <div class="hero__content">
+                    <article>
+                        <h1 class="h1--gold">MOVING RESOURCES</h1>
+                        <h1>Master your move. We're here to help.</h1>
+                        <p>A lot of research goes into planning a move. But don't sweat it–we've done the heavy lifting.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="navbar">
+            <nav>
+                <ul>
+                    <li>ALL</li>
+                    <li>UTILITIES</li>
+                    <li>GUIDES</li>
+                    <li>BUYING/SELLING</li>
+                    <li>MOVING</li>
+                    <li>DESIGN</li>
+                    <li>ORGINIZATION</li>
+                    <li>OUTDOOR</li>
+                    <li class="navbar__contact">
+                        <button class="navButton" type="button">CONTACT US</button>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section class="articles">
+            <div class="flex_container"></div>
+            <div class="articles__one"></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+        <section class="loadMore">
+            <div class="line">
+                <hr>
+                <div class="break"></div>
+            </div>
+            <button class="loadMore__button"></button>
+        </section>
+    </main>
+    <footer class="foot">
+        <div class="foot__top">
+            <nav class="foot__top__nav">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </nav>
+            <div class="foot_top_side">
+                    <div class="foot__sideLogo"></div>
+                    <nav class="foot_navSocial">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </nav>
+            </div>
+        </div>
+        <div class="foot__bot">
+            <nav class="bot-navbar">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					head.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					head.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>

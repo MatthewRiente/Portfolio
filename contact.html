@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact Me</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="reset.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="catalog.css" />
+</head>
+<body>
+    <header>
+        <div class="headerImg">        
+        </div>
+        <div class="headerText">
+            <h1>Matthew Riente</h1>
+            <h2>Road to Hire Associate</h2>
+            <div class="dropdown">
+                    <img class="home-icon" src="full-home-icon.png" alt="home" />
+                        <nav class="dropdown-content">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>                    
+                            <li><a href="pastWorks.html">Past Works</a></li>                  
+                            <li><a href="aboutMe.html">About Me</a></li>                    
+                            <li><a href="contact.html">Contact</a></li>                    
+                            <li><a href="gallery.html">Gallery</a></li>                    
+                            <li><a href="bio.html">Biography</a></li>
+                            <li><a href="resume.html">Resume</a></li>
+                        </ul>                    
+                    </nav>
+                </div>        
+            </div>
+    </header>
+    <main>
+        <section class="flex-container">
+            <form name="myForm" onsubmit="return validateForm()" action="#" method="get" class="form">
+            <div class="blocks">
+                <div class="contactForm">
+                    <div>
+                        <label for=firstName> First Name: </label> 
+                        <input type="text" id="firstName" name="firstName" required/>
+                    </div>
+                    <div>
+                        <label for=lastName> Last Name: </label> 
+                        <input type="text" id="lastName" name="lastName" required/>
+                    </div>
+                    <div>
+                        <label for=email> Your Email: </label> 
+                        <input type="text" id="email" name="email" required/>
+                    </div>
+                    <div>
+                        <label for=company> Company: </label> 
+                        <input type="text" id="company" name="company" />
+                    </div>
+                </div>
+            </div>
+                <div class="contactExtras">
+                <textarea placeholder="Please enter your comment or question here..." rows="20" cols="75"></textarea>
+                <input type="submit" value="Submit" />
+                </div>
+            </form>
+        </section>
+        <section class="contactEmail">
+            <h3>Matthew Riente's Email:</h3>
+            <p>Matthew can be emailed at <strong>mjriente@gmail.com</strong></p>
+        </section>
+    </main>
+    <footer>
+        <p><small>All images used for educational purposes</small></p>
+        <a href="https://www.linkedin.com/in/matthew-riente-514880154/"><img class="linked-icon" src="linkedin.png" alt="linkedin" /></a>
+        <a href="https://www.roadtohire.org/"><img class="r2h-icon" src="roadtohirelogo-white.png" alt="r2h" /></a>
+        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+    </footer>
+    <script src="formValid.js"></script>
+</body>
+</html>

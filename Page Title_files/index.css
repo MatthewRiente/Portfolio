@@ -1,0 +1,102 @@
+header .headContent {
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  width: 1440px;
+}
+header .headContent__myMove {
+  position: relative;
+  top: 20px;
+  left: 30px;
+}
+header .headContent__navbar {
+  display: inline-block;
+  position: relative;
+  left: 425px;
+  top: 20px;
+}
+header ul {
+  list-style: none;
+  color: white;
+}
+header ul li {
+  float: left;
+  padding: 20px;
+}
+header ul .navbar-dropdown {
+  text-align: center;
+  padding: 0px;
+}
+
+main .hero__BG {
+  background-image: url(../Images/mask.svg);
+  background-color: rgba(63, 81, 181, 0.7);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 419px;
+  width: 100%;
+}
+main .hero__content {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+  width: 1000px;
+  top: 120px;
+  left: 15%;
+}
+main .hero__content h1, main .hero__content .h1--gold, main .hero__content p {
+  padding: 20px;
+}
+main .hero__content .h1--gold {
+  color: goldenrod;
+  font-size: 20px;
+  text-align: center;
+}
+main .hero__content h1 {
+  color: white;
+  font-size: 54px;
+  text-align: center;
+}
+main .hero__content p {
+  color: rgba(255, 255, 255, 0.692);
+  font-size: 16px;
+  text-align: center;
+}
+main .navbar {
+  position: relative;
+  width: 1440px;
+  display: inline-block;
+}
+main .navbar ul {
+  display: block;
+}
+main .navbar ul li {
+  padding: 40px 20px;
+  float: left;
+}
+main .navbar ul .navbar__contact {
+  left: 0px;
+  float: right;
+}
+main .navbar ul .navbar__contact .navButton {
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=index.css.map */
